@@ -1,0 +1,30 @@
+[
+  {
+    "id": "1bad09ea-9c9e-4ae8-a2c1-774801e1e867",
+    "data": [
+      {
+        "text": "not functioning",
+        "alias": "issue",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1538245304
+  },
+  {
+    "id": "07a4cf6d-bfaa-4136-b776-210393cb62ff",
+    "data": [
+      {
+        "text": "its not cooling properly",
+        "alias": "issue",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1538245304
+  }
+]

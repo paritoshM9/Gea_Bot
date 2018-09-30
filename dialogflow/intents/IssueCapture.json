@@ -1,0 +1,56 @@
+{
+  "id": "e893764f-cdf2-4095-8fde-2d9b9862882e",
+  "name": "IssueCapture",
+  "auto": true,
+  "contexts": [
+    "serialvalidated"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "serialvalidated",
+          "parameters": {},
+          "lifespan": 10
+        },
+        {
+          "name": "issueTaken",
+          "parameters": {},
+          "lifespan": 10
+        }
+      ],
+      "parameters": [
+        {
+          "id": "b99cc923-595c-4297-bcc9-9606b5040357",
+          "required": true,
+          "dataType": "@sys.any",
+          "name": "issue",
+          "value": "$issue",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "textToSpeech": "Got it ! We need some more details for booking the service. May I know your name please ?"
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1538324209,
+  "fallbackIntent": false,
+  "events": []
+}

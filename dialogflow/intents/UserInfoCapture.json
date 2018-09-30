@@ -1,0 +1,89 @@
+{
+  "id": "4ea81888-2d3c-47f7-9323-4607a8a0cde4",
+  "name": "UserInfoCapture",
+  "auto": true,
+  "contexts": [
+    "serialvalidated",
+    "issueTaken"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "serialvalidated",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "issueTaken",
+          "parameters": {},
+          "lifespan": 10
+        }
+      ],
+      "parameters": [
+        {
+          "id": "25281fd3-5856-4e16-bd7b-24ec6eb5f1d1",
+          "required": true,
+          "dataType": "@sys.any",
+          "name": "name",
+          "value": "$name",
+          "isList": false
+        },
+        {
+          "id": "7340d7d5-0672-49ae-83ff-cdaabae3dbb7",
+          "required": true,
+          "dataType": "@sys.any",
+          "name": "address",
+          "value": "$address",
+          "isList": false
+        },
+        {
+          "id": "0ce261fd-2b6f-49b4-ac47-98a89ab8ac6f",
+          "required": true,
+          "dataType": "@sys.email",
+          "name": "email",
+          "value": "$email",
+          "isList": false
+        },
+        {
+          "id": "d4415a43-a285-4bd0-8aa3-a6e22ae76484",
+          "required": true,
+          "dataType": "@sys.phone-number",
+          "name": "phone-number",
+          "value": "$phone-number",
+          "isList": false
+        },
+        {
+          "id": "ed644305-7b93-4940-8a3a-b26af773463d",
+          "required": true,
+          "dataType": "@sys.number",
+          "name": "pincode",
+          "value": "$pincode",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "textToSpeech": "Your name is $name  address is $address email is $email and phone is $phone-number"
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1538323482,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,84 @@
+{
+  "id": "df65f71f-3845-4b2d-9fc4-c08d3f265337",
+  "name": "BookServiceDataCapture",
+  "auto": true,
+  "contexts": [
+    "bookservice"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "BookServiceDataCaptureAction",
+      "affectedContexts": [
+        {
+          "name": "serialvalidated",
+          "parameters": {},
+          "lifespan": 10
+        }
+      ],
+      "parameters": [
+        {
+          "id": "6bbd797a-5219-49dd-9a6c-489790800afb",
+          "required": true,
+          "dataType": "@sys.any",
+          "name": "model_number",
+          "value": "$model_number",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Can you please help me with the model number."
+            }
+          ],
+          "isList": false
+        },
+        {
+          "id": "1345df19-7299-4b10-8c70-8ecffe40b4a8",
+          "required": true,
+          "dataType": "@sys.any",
+          "name": "serial_number",
+          "value": "$serial_number",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "what is the serial number"
+            }
+          ],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "textToSpeech": "Thanks for your response... Let me check a few things $serial_number"
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "lang": "en",
+          "suggestions": [
+            {
+              "title": "Reenter Model Number"
+            }
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1538320317,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,43 @@
+{
+  "id": "2b6e84bb-ea8e-4232-a45c-16265e117c09",
+  "name": "reschedule",
+  "auto": true,
+  "contexts": [
+    "entertracking",
+    "cancelorreschedule"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "new",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "textToSpeech": "Ok! Enter the new day and time"
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1538330039,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,122 @@
+[
+  {
+    "id": "068b66f5-f52e-4ed5-a1d0-86d21b5c6c5e",
+    "data": [
+      {
+        "text": "manage existing service",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1538329674
+  },
+  {
+    "id": "e424888a-9978-48c1-861b-ca49e0c16802",
+    "data": [
+      {
+        "text": "change the timings",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1538223651
+  },
+  {
+    "id": "2f501c92-1048-44a9-9679-6428af199d2a",
+    "data": [
+      {
+        "text": "cancel the scheduled service",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1538223651
+  },
+  {
+    "id": "b5d89ef4-6912-4cb8-bd48-caaf6d7fd8ec",
+    "data": [
+      {
+        "text": "When is my service",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1538223651
+  },
+  {
+    "id": "0b4547a5-2247-4649-846a-8e021a1a4f60",
+    "data": [
+      {
+        "text": "I want to track the service",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1538223651
+  },
+  {
+    "id": "fa0f890f-56ea-4f68-8435-8c9ab1962a8b",
+    "data": [
+      {
+        "text": "Can I change my scheduled time",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1538223651
+  },
+  {
+    "id": "c830d4fc-c2fa-4131-8452-0c02cb8f80bb",
+    "data": [
+      {
+        "text": "i want to change the time of the service",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1538223651
+  },
+  {
+    "id": "99e084d2-2616-4dc5-b360-e2b72d061e9b",
+    "data": [
+      {
+        "text": "reschedule the service call",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1538223651
+  },
+  {
+    "id": "64e65149-f679-444e-af55-241607c43b24",
+    "data": [
+      {
+        "text": "cancel the service",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1538223651
+  },
+  {
+    "id": "b7a498c1-9961-4ceb-85b5-fb434a667f9e",
+    "data": [
+      {
+        "text": "I want to cancel my service",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1538223651
+  }
+]

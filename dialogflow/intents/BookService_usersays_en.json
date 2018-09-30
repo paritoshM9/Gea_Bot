@@ -1,0 +1,122 @@
+[
+  {
+    "id": "43a0182c-0da0-467b-a3df-9f1a9ee46236",
+    "data": [
+      {
+        "text": "Can I get a service",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1538223498
+  },
+  {
+    "id": "a41254dc-a907-4605-a759-fa66f5f79784",
+    "data": [
+      {
+        "text": "I want to schedule a service call",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1538223498
+  },
+  {
+    "id": "7871d525-ec08-4f5a-83b1-0d42c89fd6b2",
+    "data": [
+      {
+        "text": "problem with my refrigerator",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1538223498
+  },
+  {
+    "id": "cbc09bb4-3d38-42f9-a36c-22088322cf92",
+    "data": [
+      {
+        "text": "not working",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1538223498
+  },
+  {
+    "id": "3cc509d8-176c-4e50-a657-d6cc1b2344a2",
+    "data": [
+      {
+        "text": "my appliance is not working",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1538223498
+  },
+  {
+    "id": "e6838171-10e2-4e97-9c89-cf10d2c4e7bf",
+    "data": [
+      {
+        "text": "I have issues",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1538223498
+  },
+  {
+    "id": "5d3b4ee2-6276-483e-8559-52857f8ffd30",
+    "data": [
+      {
+        "text": "New service appointment",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1538223498
+  },
+  {
+    "id": "d774dd2d-0b89-4c1c-ac3c-89545e7980db",
+    "data": [
+      {
+        "text": "Book Service",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1538223498
+  },
+  {
+    "id": "4ac51854-d35a-46b8-ac3e-589ad6934a7d",
+    "data": [
+      {
+        "text": "New service call",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1538223498
+  },
+  {
+    "id": "81dbd9c4-c5e9-45aa-b979-f53e93cca699",
+    "data": [
+      {
+        "text": "Book a service call",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1537513236
+  }
+]

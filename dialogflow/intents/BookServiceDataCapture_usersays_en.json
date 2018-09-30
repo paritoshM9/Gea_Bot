@@ -1,0 +1,178 @@
+[
+  {
+    "id": "a566a3ba-f70f-4847-9e8a-510a72120c04",
+    "data": [
+      {
+        "text": "my serial number is ",
+        "userDefined": false
+      },
+      {
+        "text": "1223443",
+        "alias": "serial_number",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1538216206
+  },
+  {
+    "id": "bf2670e4-4fcb-42fe-b954-232a31dbb524",
+    "data": [
+      {
+        "text": "my model number is ",
+        "userDefined": false
+      },
+      {
+        "text": "PYD22KSLSS",
+        "alias": "model_number",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1538145836
+  },
+  {
+    "id": "fb454a9f-dd45-4ff4-bb92-ce6dc431b8cb",
+    "data": [
+      {
+        "text": "WCVH4800KWW",
+        "alias": "model_number",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1537514054
+  },
+  {
+    "id": "15445195-58c6-4062-853c-7e2349cbba05",
+    "data": [
+      {
+        "text": "PYD22KSLSS",
+        "alias": "model_number",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1537514054
+  },
+  {
+    "id": "efe81138-854a-498a-bae4-f98c6ce4cca4",
+    "data": [
+      {
+        "text": "PT9051SLSS",
+        "alias": "model_number",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1537514054
+  },
+  {
+    "id": "2ac8bde0-78c5-4edc-a1b7-c155ba797eaa",
+    "data": [
+      {
+        "text": "PK7000BLTS",
+        "alias": "model_number",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1537514054
+  },
+  {
+    "id": "b6e9d973-6f57-4304-ae51-f2ee67e1a0b5",
+    "data": [
+      {
+        "text": "PDT855SSJSS",
+        "alias": "model_number",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1537514054
+  },
+  {
+    "id": "ed30b0ff-6a32-414a-bffc-6dce3283bac4",
+    "data": [
+      {
+        "text": "JK3800SHSS",
+        "alias": "model_number",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1537514054
+  },
+  {
+    "id": "42700ae1-6a03-4b84-87dd-646bd58307cc",
+    "data": [
+      {
+        "text": "GSM2200VBB",
+        "alias": "model_number",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1537514054
+  },
+  {
+    "id": "a42a72dc-b23a-4aad-97c5-7275424df74b",
+    "data": [
+      {
+        "text": "AEM10AX",
+        "alias": "model_number",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1537514054
+  },
+  {
+    "id": "049e0bdf-11bb-48b3-a8f5-acf86488189d",
+    "data": [
+      {
+        "text": "CFE28USHSS",
+        "alias": "model_number",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1537514054
+  },
+  {
+    "id": "93e98463-04a4-49de-babb-0d1ec8ec9cb2",
+    "data": [
+      {
+        "text": "PYD22KBLTS",
+        "alias": "model_number",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1537514054
+  }
+]

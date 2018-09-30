@@ -1,0 +1,37 @@
+{
+  "id": "13032461-0d5f-47fa-85ff-8f965955e73d",
+  "name": "cancel",
+  "auto": true,
+  "contexts": [
+    "cancelorreschedule",
+    "entertracking"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "textToSpeech": "Ok! #cancelorreschedule.any is canceled"
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1538330477,
+  "fallbackIntent": false,
+  "events": []
+}

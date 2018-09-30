@@ -1,0 +1,380 @@
+[
+  {
+    "id": "da444096-dd61-4e3f-9444-83a4ae0834f4",
+    "data": [
+      {
+        "text": "my zipcode is ",
+        "userDefined": false
+      },
+      {
+        "text": "123112",
+        "alias": "pincode",
+        "meta": "@sys.number",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1538305525
+  },
+  {
+    "id": "46e0f134-ff77-48d7-af03-10f2fdfb21b1",
+    "data": [
+      {
+        "text": "my pincode is ",
+        "userDefined": false
+      },
+      {
+        "text": "632014",
+        "alias": "pincode",
+        "meta": "@sys.number",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1538305525
+  },
+  {
+    "id": "8b4bbe40-dfff-47e4-8200-ea49ab5f03fd",
+    "data": [
+      {
+        "text": "122102",
+        "alias": "pincode",
+        "meta": "@sys.number",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1538305525
+  },
+  {
+    "id": "30d5f7fa-50f4-4beb-a053-c9838250d35d",
+    "data": [
+      {
+        "text": "my email  is ",
+        "userDefined": false
+      },
+      {
+        "text": "hello.world@yahoo.com",
+        "alias": "email",
+        "meta": "@sys.email",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1538305525
+  },
+  {
+    "id": "93dc1247-652b-4bfd-a872-02fe06f7a989",
+    "data": [
+      {
+        "text": "my phone number is ",
+        "userDefined": false
+      },
+      {
+        "text": "0124-2266210",
+        "alias": "phone-number",
+        "meta": "@sys.phone-number",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1538305525
+  },
+  {
+    "id": "b1395c18-5469-4aae-b7e9-ad503527fa90",
+    "data": [
+      {
+        "text": "my phone number is ",
+        "userDefined": false
+      },
+      {
+        "text": "8901235610",
+        "alias": "phone-number",
+        "meta": "@sys.phone-number",
+        "userDefined": true
+      },
+      {
+        "text": " and my email  is ",
+        "userDefined": false
+      },
+      {
+        "text": "hello.world@gmail.com",
+        "alias": "email",
+        "meta": "@sys.email",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1538305525
+  },
+  {
+    "id": "997e586e-88a4-424b-8272-15eaf76bc02a",
+    "data": [
+      {
+        "text": "my number is ",
+        "userDefined": false
+      },
+      {
+        "text": "8901235610",
+        "alias": "phone-number",
+        "meta": "@sys.phone-number",
+        "userDefined": true
+      },
+      {
+        "text": " and my email id is ",
+        "userDefined": false
+      },
+      {
+        "text": "hello@gmail.com",
+        "alias": "email",
+        "meta": "@sys.email",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1538305525
+  },
+  {
+    "id": "99f88764-8ef7-4961-854e-11f35e6366ab",
+    "data": [
+      {
+        "text": "9416380871",
+        "alias": "phone-number",
+        "meta": "@sys.phone-number",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1538305525
+  },
+  {
+    "id": "ed1b1724-bbc3-40d2-bb3d-e1243e2e3c72",
+    "data": [
+      {
+        "text": "paritosh.mahajan98@gmail.com",
+        "alias": "email",
+        "meta": "@sys.email",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1538305525
+  },
+  {
+    "id": "e7b04813-13f2-46ce-9031-4e7631f4a910",
+    "data": [
+      {
+        "text": "kirti sharma",
+        "alias": "name",
+        "meta": "@sys.any",
+        "userDefined": true
+      },
+      {
+        "text": " is my name",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1538305525
+  },
+  {
+    "id": "0fbabdb4-7608-46a8-956d-016b7aacdde0",
+    "data": [
+      {
+        "text": "name - ",
+        "userDefined": false
+      },
+      {
+        "text": "singh ahluvalia",
+        "alias": "name",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1538305525
+  },
+  {
+    "id": "64e5b07f-7032-46f9-a731-7deab2df40cf",
+    "data": [
+      {
+        "text": "my name is ",
+        "userDefined": false
+      },
+      {
+        "text": "mr kennedy",
+        "alias": "name",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1538305525
+  },
+  {
+    "id": "f1436e55-a2d9-4dec-8625-e4933c3ec48e",
+    "data": [
+      {
+        "text": "J K Sharma",
+        "alias": "name",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1538305525
+  },
+  {
+    "id": "93de1219-be8a-47b6-9cd5-a0369b348a08",
+    "data": [
+      {
+        "text": "J.K.Sharma",
+        "alias": "name",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1538305525
+  },
+  {
+    "id": "7590fd46-f6ce-4699-ba24-8ac0c65d97a8",
+    "data": [
+      {
+        "text": "Rajeev Rao Gandhi",
+        "alias": "name",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 1538305525
+  },
+  {
+    "id": "f3668471-e627-4252-8a2c-ebdd1d23bb60",
+    "data": [
+      {
+        "text": "John K",
+        "alias": "name",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1538305525
+  },
+  {
+    "id": "a679ecb2-aef0-4101-a719-c4159b9255ce",
+    "data": [
+      {
+        "text": "fineart colony shantiniketan bangalore",
+        "alias": "address",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1538305525
+  },
+  {
+    "id": "f51ef65c-75bd-415e-8286-d8f7ab35e12c",
+    "data": [
+      {
+        "text": "H-no 18 colony vrindanagar",
+        "alias": "address",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1538305525
+  },
+  {
+    "id": "8b4b7a76-28e2-4865-84d8-3c376c22ffcb",
+    "data": [
+      {
+        "text": "M-12 Saveria Winston, Kadubeesanhalli",
+        "alias": "address",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1538305525
+  },
+  {
+    "id": "09ebc714-d3a5-4f3a-b59a-c567c8ce5cd5",
+    "data": [
+      {
+        "text": "1265 maruti kunj, gurgaon",
+        "alias": "address",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 1538305525
+  },
+  {
+    "id": "558148e2-11c0-40e0-a79b-07cb91977bda",
+    "data": [
+      {
+        "text": "paritosh m mahajan",
+        "alias": "name",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1538305525
+  },
+  {
+    "id": "3a9e8866-cc6d-4d34-9772-dae3cb1a879f",
+    "data": [
+      {
+        "text": "1265 maruti kunj , gurgaon , india , 122102",
+        "alias": "address",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1538277644
+  },
+  {
+    "id": "66bb244a-5fb3-462f-b02c-5ce0c797bbb7",
+    "data": [
+      {
+        "text": "paritosh mahajan",
+        "alias": "name",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1538277644
+  }
+]
