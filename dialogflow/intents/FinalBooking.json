@@ -1,0 +1,47 @@
+{
+  "id": "c8548151-7207-467e-b725-87c0bae68772",
+  "name": "FinalBooking",
+  "auto": true,
+  "contexts": [
+    "userinfotaken",
+    "serialvalidated",
+    "issueTaken"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "3fdfa932-f783-4484-a56d-e768f4ed62ca",
+          "required": false,
+          "dataType": "@sys.ordinal",
+          "name": "ordinal",
+          "value": "$ordinal",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "textToSpeech": "Got it ! matched $ordinal"
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1538329051,
+  "fallbackIntent": false,
+  "events": []
+}
