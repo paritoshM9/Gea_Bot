@@ -41,7 +41,7 @@
         {
           "id": "0ce261fd-2b6f-49b4-ac47-98a89ab8ac6f",
           "required": true,
-          "dataType": "@sys.email",
+          "dataType": "@sys.any",
           "name": "email",
           "value": "$email",
           "isList": false
@@ -50,8 +50,14 @@
           "id": "d4415a43-a285-4bd0-8aa3-a6e22ae76484",
           "required": true,
           "dataType": "@sys.phone-number",
-          "name": "phone-number",
-          "value": "$phone-number",
+          "name": "phone_number",
+          "value": "$phone_number",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Almost there! Please enter your phone number"
+            }
+          ],
           "isList": false
         },
         {
@@ -60,6 +66,7 @@
           "dataType": "@sys.number",
           "name": "pincode",
           "value": "$pincode",
+          "prompts": [],
           "isList": false
         }
       ],
@@ -83,7 +90,7 @@
   "priority": 500000,
   "webhookUsed": true,
   "webhookForSlotFilling": false,
-  "lastUpdate": 1538323482,
+  "lastUpdate": 1538906282,
   "fallbackIntent": false,
   "events": []
 }

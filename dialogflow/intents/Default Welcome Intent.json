@@ -7,25 +7,88 @@
     {
       "resetContexts": false,
       "action": "input.welcome",
-      "affectedContexts": [],
+      "affectedContexts": [
+        {
+          "name": "selectoptions",
+          "parameters": {},
+          "lifespan": 20
+        }
+      ],
       "parameters": [],
       "messages": [
         {
           "type": "simple_response",
           "platform": "google",
           "lang": "en",
-          "textToSpeech": "Welcome to GEA Service Bot. I can book service calls and manage scheduled services. How can I help you today ?"
+          "textToSpeech": "Welcome to GEA Service ! \nHow can I help you today ?"
         },
         {
-          "type": "suggestion_chips",
+          "type": "list_card",
           "platform": "google",
           "lang": "en",
-          "suggestions": [
+          "title": "Here are the things which I can do",
+          "items": [
             {
-              "title": "Book Service Call"
+              "optionInfo": {
+                "key": "book service appointments",
+                "synonyms": [
+                  "book service",
+                  "book",
+                  "book appointment"
+                ]
+              },
+              "title": "Book Service Appointments",
+              "description": "Book a service if you are facing any issues with your GE appliances",
+              "image": {
+                "url": "https://image.flaticon.com/icons/png/512/562/562674.png",
+                "accessibilityText": "Book Service Appointments"
+              }
             },
             {
-              "title": "Manage Existing Service"
+              "optionInfo": {
+                "key": "reschedule existing service",
+                "synonyms": [
+                  "reschedule service",
+                  "reschedule my service"
+                ]
+              },
+              "title": "Reschedule existing service",
+              "description": "Click here to change the date and time of your service appointment",
+              "image": {
+                "url": "https://static.thenounproject.com/png/694983-200.png",
+                "accessibilityText": "Reschedule existing service"
+              }
+            },
+            {
+              "optionInfo": {
+                "key": "cancel service",
+                "synonyms": [
+                  "cancel my service",
+                  "cancel service"
+                ]
+              },
+              "title": "Cancel Service Appointments",
+              "description": "It will guide to you cancel you already booked service appointments.",
+              "image": {
+                "url": "https://bakkes.nu/image/data/Icons/Cancellation.png",
+                "accessibilityText": "Cancel Service Appointments"
+              }
+            },
+            {
+              "optionInfo": {
+                "key": "get service details",
+                "synonyms": [
+                  "track service",
+                  "get details",
+                  "get service details"
+                ]
+              },
+              "title": "Get Service Details",
+              "description": "Find your service booking details like service date and time here.",
+              "image": {
+                "url": "https://cdn3.iconfinder.com/data/icons/sales-and-delivery/128/track-512.png",
+                "accessibilityText": "Get Service Details"
+              }
             }
           ]
         },
@@ -44,7 +107,7 @@
   "priority": 500000,
   "webhookUsed": false,
   "webhookForSlotFilling": false,
-  "lastUpdate": 1538223849,
+  "lastUpdate": 1538905447,
   "fallbackIntent": false,
   "events": [
     {

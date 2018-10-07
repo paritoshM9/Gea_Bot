@@ -1,26 +1,29 @@
 {
   "id": "1d717e41-f095-4b65-84f1-ada39319d1d9",
-  "name": "reschedule2",
+  "name": "Reschedule-Ordinal",
   "auto": true,
   "contexts": [
-    "new"
+    "new",
+    "cancelorreschedule",
+    "rescheduleInfo"
   ],
   "responses": [
     {
       "resetContexts": false,
       "affectedContexts": [
         {
-          "name": "new",
+          "name": "details",
           "parameters": {},
-          "lifespan": 5
+          "lifespan": 1
         }
       ],
       "parameters": [
         {
-          "id": "c96cdb5b-cf4d-45ef-8543-5e03d78e0dc8",
-          "dataType": "@sys.any",
-          "name": "any",
-          "value": "$any",
+          "id": "079f12a0-aced-41a7-9272-7b0d70cd25a8",
+          "required": false,
+          "dataType": "@sys.ordinal",
+          "name": "ordinal",
+          "value": "$ordinal",
           "isList": false
         }
       ],
@@ -29,7 +32,7 @@
           "type": "simple_response",
           "platform": "google",
           "lang": "en",
-          "textToSpeech": "Your service is rescheduled on $any"
+          "textToSpeech": "Your service is rescheduled on #rescheduleInfo.days_a[$ordinal-1]"
         },
         {
           "type": 0,
@@ -42,9 +45,9 @@
     }
   ],
   "priority": 500000,
-  "webhookUsed": false,
+  "webhookUsed": true,
   "webhookForSlotFilling": false,
-  "lastUpdate": 1538330129,
+  "lastUpdate": 1538907975,
   "fallbackIntent": false,
   "events": []
 }

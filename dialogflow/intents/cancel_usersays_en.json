@@ -1,5 +1,101 @@
 [
   {
+    "id": "ac06a6bd-c655-4086-8876-dbbfd6f4b743",
+    "data": [
+      {
+        "text": "cancel service appointment",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1538772887
+  },
+  {
+    "id": "c7974b72-802a-4ebf-891e-cc9163c99855",
+    "data": [
+      {
+        "text": "cancel appointment",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1538772644
+  },
+  {
+    "id": "8a9bf040-d98c-4e82-9886-7b2ade7c808d",
+    "data": [
+      {
+        "text": "cancel service appointments",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1538772644
+  },
+  {
+    "id": "812148b7-62bd-4481-a3f5-f96aa6ba9a15",
+    "data": [
+      {
+        "text": "Can my booked service be cancelled",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1538515127
+  },
+  {
+    "id": "4fa35a66-cc7a-49dc-bf95-d1008ca1e985",
+    "data": [
+      {
+        "text": "Can you cancel my service",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1538515127
+  },
+  {
+    "id": "a3826f2a-fed9-460d-882a-b086a20592d1",
+    "data": [
+      {
+        "text": "I don\u0027t want the service anymore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1538515127
+  },
+  {
+    "id": "bfa78982-4a6d-45bd-9199-003268307a58",
+    "data": [
+      {
+        "text": "I want to cancel the service",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1538515127
+  },
+  {
+    "id": "f96021ba-edc1-4834-b531-c19a9372d1fc",
+    "data": [
+      {
+        "text": "cancel my service",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1538515127
+  },
+  {
     "id": "97e77ec8-3a18-4134-ac84-83e90f0841a9",
     "data": [
       {

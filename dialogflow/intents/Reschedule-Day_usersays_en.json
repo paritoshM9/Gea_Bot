@@ -1,0 +1,156 @@
+[
+  {
+    "id": "7f0e89aa-bbcc-49ba-9207-2f8c5b57f2e1",
+    "data": [
+      {
+        "text": "tuesday",
+        "alias": "days",
+        "meta": "@days",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "3",
+        "alias": "time",
+        "meta": "@sys.number",
+        "userDefined": true
+      },
+      {
+        "text": " - ",
+        "userDefined": false
+      },
+      {
+        "text": "6",
+        "alias": "time",
+        "meta": "@sys.number",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1538640853
+  },
+  {
+    "id": "c1f88ef8-3fbf-4d63-bbbb-df18cecf49f1",
+    "data": [
+      {
+        "text": "on ",
+        "userDefined": false
+      },
+      {
+        "text": "wednesday",
+        "alias": "days",
+        "meta": "@days",
+        "userDefined": true
+      },
+      {
+        "text": " from ",
+        "userDefined": false
+      },
+      {
+        "text": "4",
+        "alias": "time",
+        "meta": "@sys.number",
+        "userDefined": true
+      },
+      {
+        "text": " - ",
+        "userDefined": false
+      },
+      {
+        "text": "8",
+        "alias": "time",
+        "meta": "@sys.number",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1538629918
+  },
+  {
+    "id": "ba0c43e0-ae34-4c81-aed0-ae200e6c7269",
+    "data": [
+      {
+        "text": "tuesday",
+        "alias": "days",
+        "meta": "@days",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "3",
+        "alias": "time",
+        "meta": "@sys.number",
+        "userDefined": true
+      },
+      {
+        "text": " from ",
+        "userDefined": false
+      },
+      {
+        "text": "6",
+        "alias": "time",
+        "meta": "@sys.number",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1538629918
+  },
+  {
+    "id": "35017dec-700b-4e9a-9e3b-ee605a089247",
+    "data": [
+      {
+        "text": "monday",
+        "alias": "days",
+        "meta": "@days",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "2",
+        "alias": "time",
+        "meta": "@sys.number",
+        "userDefined": true
+      },
+      {
+        "text": " - ",
+        "userDefined": false
+      },
+      {
+        "text": "5",
+        "alias": "time",
+        "meta": "@sys.number",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1538629918
+  },
+  {
+    "id": "67b29967-508f-47e1-8023-00ff998a773a",
+    "data": [
+      {
+        "text": "monday",
+        "alias": "days",
+        "meta": "@days",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1538629918
+  }
+]

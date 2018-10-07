@@ -1,6 +1,6 @@
 {
-  "id": "2ab89b41-0910-4e5c-b1e6-9d3fcdb42955",
-  "name": "ManageServices",
+  "id": "4afca6d2-68d1-46c6-bbce-2de949ab7627",
+  "name": "ListHandler",
   "auto": true,
   "contexts": [
     "selectoptions"
@@ -8,20 +8,15 @@
   "responses": [
     {
       "resetContexts": false,
-      "affectedContexts": [
-        {
-          "name": "entertracking",
-          "parameters": {},
-          "lifespan": 10
-        }
-      ],
+      "action": "",
+      "affectedContexts": [],
       "parameters": [],
       "messages": [
         {
           "type": "simple_response",
           "platform": "google",
           "lang": "en",
-          "textToSpeech": "Got it ! To get details or modify existing services, please enter you tracking id."
+          "textToSpeech": "Ok! To confirm, Please select the required option from the list again."
         },
         {
           "type": 0,
@@ -36,7 +31,11 @@
   "priority": 500000,
   "webhookUsed": false,
   "webhookForSlotFilling": false,
-  "lastUpdate": 1538911743,
+  "lastUpdate": 1538905565,
   "fallbackIntent": false,
-  "events": []
+  "events": [
+    {
+      "name": "actions_intent_OPTION"
+    }
+  ]
 }

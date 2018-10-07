@@ -1,27 +1,28 @@
 {
-  "id": "2ab89b41-0910-4e5c-b1e6-9d3fcdb42955",
-  "name": "ManageServices",
+  "id": "94c89d40-6ae2-456f-b76e-632524ce6978",
+  "name": "ConversationOver",
   "auto": true,
   "contexts": [
-    "selectoptions"
+    "details"
   ],
   "responses": [
     {
       "resetContexts": false,
-      "affectedContexts": [
-        {
-          "name": "entertracking",
-          "parameters": {},
-          "lifespan": 10
-        }
-      ],
+      "affectedContexts": [],
       "parameters": [],
       "messages": [
         {
           "type": "simple_response",
           "platform": "google",
           "lang": "en",
-          "textToSpeech": "Got it ! To get details or modify existing services, please enter you tracking id."
+          "items": [
+            {
+              "textToSpeech": "Thank you for your time. I hope I helped you . Have a good day ! Bye :)"
+            },
+            {
+              "textToSpeech": "Thank you ! Have a great day"
+            }
+          ]
         },
         {
           "type": 0,
@@ -36,7 +37,7 @@
   "priority": 500000,
   "webhookUsed": false,
   "webhookForSlotFilling": false,
-  "lastUpdate": 1538911743,
+  "lastUpdate": 1538907881,
   "fallbackIntent": false,
   "events": []
 }

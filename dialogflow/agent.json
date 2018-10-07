@@ -7,9 +7,16 @@
     "googleAssistantCompatible": true,
     "project": "geabot-5ac27",
     "welcomeIntentSignInRequired": false,
-    "startIntents": [],
+    "startIntents": [
+      {
+        "intentId": "4afca6d2-68d1-46c6-bbce-2de949ab7627",
+        "signInRequired": false
+      }
+    ],
     "systemIntents": [],
-    "endIntentIds": [],
+    "endIntentIds": [
+      "94c89d40-6ae2-456f-b76e-632524ce6978"
+    ],
     "oAuthLinking": {
       "required": false,
       "grantType": "AUTH_CODE_GRANT"

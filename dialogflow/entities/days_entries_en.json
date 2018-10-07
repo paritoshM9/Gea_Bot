@@ -2,43 +2,61 @@
   {
     "value": "monday",
     "synonyms": [
-      "monday"
+      "monday",
+      "Monday",
+      "munday",
+      "mon"
     ]
   },
   {
     "value": "tuesday",
     "synonyms": [
-      "tuesday"
+      "tuesday",
+      "Tuesday",
+      "tues"
     ]
   },
   {
     "value": "wednesday",
     "synonyms": [
-      "wednesday"
+      "wednesday",
+      "wed",
+      "wensday",
+      "wendsday"
     ]
   },
   {
     "value": "thursday",
     "synonyms": [
-      "thursday"
+      "thursday",
+      "thrusday",
+      "thur",
+      "Thursday"
     ]
   },
   {
     "value": "friday",
     "synonyms": [
-      "friday"
+      "friday",
+      "Friday",
+      "fri"
     ]
   },
   {
     "value": "saturday",
     "synonyms": [
-      "saturday"
+      "saturday",
+      "Saturday",
+      "satchurday",
+      "sat"
     ]
   },
   {
     "value": "sunday",
     "synonyms": [
-      "sunday"
+      "sunday",
+      "sonday",
+      "Sunday"
     ]
   }
 ]

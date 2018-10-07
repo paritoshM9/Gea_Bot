@@ -1,23 +1,27 @@
 {
-  "id": "c8548151-7207-467e-b725-87c0bae68772",
-  "name": "FinalBooking",
+  "id": "4555c576-6f11-4ac1-9705-90b60c296e9f",
+  "name": "TrackService",
   "auto": true,
   "contexts": [
-    "userinfotaken",
-    "serialvalidated",
-    "issueTaken"
+    "entertracking"
   ],
   "responses": [
     {
       "resetContexts": false,
-      "affectedContexts": [],
+      "affectedContexts": [
+        {
+          "name": "cancelorreschedule",
+          "parameters": {},
+          "lifespan": 10
+        }
+      ],
       "parameters": [
         {
-          "id": "3fdfa932-f783-4484-a56d-e768f4ed62ca",
+          "id": "ff1a0c91-3861-425d-beb9-1304e97f9deb",
           "required": false,
-          "dataType": "@sys.ordinal",
-          "name": "ordinal",
-          "value": "$ordinal",
+          "dataType": "@sys.any",
+          "name": "tracking_id",
+          "value": "$tracking_id",
           "isList": false
         }
       ],
@@ -26,7 +30,7 @@
           "type": "simple_response",
           "platform": "google",
           "lang": "en",
-          "textToSpeech": "Got it ! matched $ordinal"
+          "textToSpeech": "Thank you for entering your tracking id ."
         },
         {
           "type": 0,
@@ -41,7 +45,7 @@
   "priority": 500000,
   "webhookUsed": true,
   "webhookForSlotFilling": false,
-  "lastUpdate": 1538329051,
+  "lastUpdate": 1538772073,
   "fallbackIntent": false,
   "events": []
 }

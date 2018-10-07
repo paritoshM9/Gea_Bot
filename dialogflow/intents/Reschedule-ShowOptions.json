@@ -1,36 +1,32 @@
 {
-  "id": "4555c576-6f11-4ac1-9705-90b60c296e9f",
-  "name": "track",
+  "id": "2b6e84bb-ea8e-4232-a45c-16265e117c09",
+  "name": "Reschedule-ShowOptions",
   "auto": true,
   "contexts": [
-    "entertracking"
+    "cancelorreschedule"
   ],
   "responses": [
     {
       "resetContexts": false,
       "affectedContexts": [
         {
-          "name": "cancelorreschedule",
+          "name": "new",
           "parameters": {},
-          "lifespan": 5
-        }
-      ],
-      "parameters": [
+          "lifespan": 2
+        },
         {
-          "id": "ff1a0c91-3861-425d-beb9-1304e97f9deb",
-          "required": false,
-          "dataType": "@sys.any",
-          "name": "any",
-          "value": "$any",
-          "isList": false
+          "name": "rescheduleInfo",
+          "parameters": {},
+          "lifespan": 2
         }
       ],
+      "parameters": [],
       "messages": [
         {
           "type": "simple_response",
           "platform": "google",
           "lang": "en",
-          "textToSpeech": "Thank you ! You service is scheduled on Monday from 2-6 . You want to cancel or reschedule?"
+          "textToSpeech": "Ok! Enter the new day and time"
         },
         {
           "type": 0,
@@ -43,9 +39,9 @@
     }
   ],
   "priority": 500000,
-  "webhookUsed": false,
+  "webhookUsed": true,
   "webhookForSlotFilling": false,
-  "lastUpdate": 1538330325,
+  "lastUpdate": 1538679596,
   "fallbackIntent": false,
   "events": []
 }

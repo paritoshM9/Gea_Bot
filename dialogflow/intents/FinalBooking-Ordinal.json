@@ -1,28 +1,38 @@
 {
-  "id": "2b6e84bb-ea8e-4232-a45c-16265e117c09",
-  "name": "reschedule",
+  "id": "c8548151-7207-467e-b725-87c0bae68772",
+  "name": "FinalBooking-Ordinal",
   "auto": true,
   "contexts": [
-    "entertracking",
-    "cancelorreschedule"
+    "userinfotaken",
+    "serialvalidated",
+    "issueTaken"
   ],
   "responses": [
     {
       "resetContexts": false,
       "affectedContexts": [
         {
-          "name": "new",
+          "name": "detailsAfterBooking",
           "parameters": {},
-          "lifespan": 5
+          "lifespan": 1
         }
       ],
-      "parameters": [],
+      "parameters": [
+        {
+          "id": "3fdfa932-f783-4484-a56d-e768f4ed62ca",
+          "required": false,
+          "dataType": "@sys.ordinal",
+          "name": "ordinal",
+          "value": "$ordinal",
+          "isList": false
+        }
+      ],
       "messages": [
         {
           "type": "simple_response",
           "platform": "google",
           "lang": "en",
-          "textToSpeech": "Ok! Enter the new day and time"
+          "textToSpeech": "Got it ! matched $ordinal"
         },
         {
           "type": 0,
@@ -35,9 +45,9 @@
     }
   ],
   "priority": 500000,
-  "webhookUsed": false,
+  "webhookUsed": true,
   "webhookForSlotFilling": false,
-  "lastUpdate": 1538330039,
+  "lastUpdate": 1538908410,
   "fallbackIntent": false,
   "events": []
 }

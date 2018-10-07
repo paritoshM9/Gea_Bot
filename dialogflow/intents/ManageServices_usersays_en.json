@@ -1,5 +1,77 @@
 [
   {
+    "id": "848bc9e1-8327-4542-8184-ba3dda929978",
+    "data": [
+      {
+        "text": "show service details",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1538911743
+  },
+  {
+    "id": "a09312bf-bf91-44e5-9d00-1f61fe83cd19",
+    "data": [
+      {
+        "text": "track service",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1538771983
+  },
+  {
+    "id": "64be8fa2-4919-4c61-9b6d-0aee2c59798c",
+    "data": [
+      {
+        "text": "get service details",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1538771983
+  },
+  {
+    "id": "4c1d1ce7-b670-46f9-a8b7-6c3a9a899792",
+    "data": [
+      {
+        "text": "cancel service appointments",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1538771983
+  },
+  {
+    "id": "dfa3a1d3-dd7e-41e9-88e8-fbb63f3b4d02",
+    "data": [
+      {
+        "text": "reschedule existing service",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1538771983
+  },
+  {
+    "id": "3245ebc8-5981-41c3-bfc9-571180fe2c38",
+    "data": [
+      {
+        "text": "i don\u0027t want the service",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1538511711
+  },
+  {
     "id": "068b66f5-f52e-4ed5-a1d0-86d21b5c6c5e",
     "data": [
       {

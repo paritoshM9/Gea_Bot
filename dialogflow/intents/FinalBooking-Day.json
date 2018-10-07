@@ -1,0 +1,61 @@
+{
+  "id": "85ea4def-c761-4bc6-9e62-0d7298ac130c",
+  "name": "FinalBooking-Day",
+  "auto": true,
+  "contexts": [
+    "serialvalidated",
+    "userinfotaken",
+    "issueTaken"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "detailsAfterBooking",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [
+        {
+          "id": "c01f22a1-7115-41b4-8028-13260a87e9f2",
+          "required": false,
+          "dataType": "@days",
+          "name": "days",
+          "value": "$days",
+          "isList": false
+        },
+        {
+          "id": "b1f47e96-755c-4682-a3b5-bedbdfb88741",
+          "required": false,
+          "dataType": "@sys.number",
+          "name": "timeperiod",
+          "value": "$timeperiod",
+          "isList": true
+        }
+      ],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "textToSpeech": "Booked on $days from $time[0] to $time[1]"
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1538908348,
+  "fallbackIntent": false,
+  "events": []
+}

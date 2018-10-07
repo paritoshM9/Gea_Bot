@@ -1,0 +1,84 @@
+[
+  {
+    "id": "2c646e49-8433-495a-829a-aa3d2987728d",
+    "data": [
+      {
+        "text": "wednesday",
+        "alias": "days",
+        "meta": "@days",
+        "userDefined": true
+      },
+      {
+        "text": " from ",
+        "userDefined": false
+      },
+      {
+        "text": "3",
+        "alias": "timeperiod",
+        "meta": "@sys.number",
+        "userDefined": true
+      },
+      {
+        "text": " to ",
+        "userDefined": false
+      },
+      {
+        "text": "4",
+        "alias": "timeperiod",
+        "meta": "@sys.number",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1538503931
+  },
+  {
+    "id": "dfc1042e-5c82-40b0-bae2-636edef2982d",
+    "data": [
+      {
+        "text": "tuesday",
+        "alias": "days",
+        "meta": "@days",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "3",
+        "alias": "timeperiod",
+        "meta": "@sys.number",
+        "userDefined": true
+      },
+      {
+        "text": " - ",
+        "userDefined": false
+      },
+      {
+        "text": "4",
+        "alias": "timeperiod",
+        "meta": "@sys.number",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1538503931
+  },
+  {
+    "id": "519230ff-4e40-4249-b336-41e9aeff07fe",
+    "data": [
+      {
+        "text": "monday",
+        "alias": "days",
+        "meta": "@days",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1538503931
+  }
+]

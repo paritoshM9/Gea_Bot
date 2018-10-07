@@ -1,0 +1,54 @@
+{
+  "id": "cb2b734b-e300-4c9e-bb52-0abd2f2f272f",
+  "name": "Reschedule-Day",
+  "auto": true,
+  "contexts": [
+    "new",
+    "cancelorreschedule"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "detailsAfterRescheduling",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [
+        {
+          "id": "22ec2fb5-e9d7-4ea2-8fa8-64ba241120d5",
+          "required": false,
+          "dataType": "@days",
+          "name": "days",
+          "value": "$days",
+          "isList": false
+        },
+        {
+          "id": "cf8a921d-a982-4ef5-a4d5-6ee47214a298",
+          "required": false,
+          "dataType": "@sys.number",
+          "name": "time",
+          "value": "$time",
+          "isList": true
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1538908995,
+  "fallbackIntent": false,
+  "events": []
+}

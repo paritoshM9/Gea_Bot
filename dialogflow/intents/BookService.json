@@ -2,7 +2,9 @@
   "id": "a3229d4d-eb35-4c36-8714-ccda0f7f46f2",
   "name": "BookService",
   "auto": true,
-  "contexts": [],
+  "contexts": [
+    "selectoptions"
+  ],
   "responses": [
     {
       "resetContexts": false,
@@ -20,7 +22,7 @@
           "type": "simple_response",
           "platform": "google",
           "lang": "en",
-          "textToSpeech": "To book a service appointment, I would need few details. Can you please tell me the model number of your appliance."
+          "textToSpeech": "To book a service appointment, I would need few details. Can you please tell me the model number and the serial number of your appliance."
         },
         {
           "type": 0,
@@ -37,7 +39,7 @@
   "priority": 500000,
   "webhookUsed": false,
   "webhookForSlotFilling": false,
-  "lastUpdate": 1538243592,
+  "lastUpdate": 1538905624,
   "fallbackIntent": false,
   "events": []
 }

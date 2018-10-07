@@ -1,0 +1,122 @@
+[
+  {
+    "id": "524fc4f6-5136-41e3-937c-22df98dec765",
+    "data": [
+      {
+        "text": "reschedule my call",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1538617370
+  },
+  {
+    "id": "d8ce4e39-c16b-40a7-9471-cbe7eac90e42",
+    "data": [
+      {
+        "text": "reschedule my service",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1538617370
+  },
+  {
+    "id": "c36cfa9e-85e5-47dc-9070-9eba4c9ed535",
+    "data": [
+      {
+        "text": "reschedule the service",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1538617370
+  },
+  {
+    "id": "b230d5f7-79a7-4022-98eb-5d5d5d34b3bc",
+    "data": [
+      {
+        "text": "Rebook on some other day",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1538515992
+  },
+  {
+    "id": "5a6ad25f-11c8-4637-b63f-dee7dadc70d5",
+    "data": [
+      {
+        "text": "Can I book the service on some other day",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1538515992
+  },
+  {
+    "id": "7cfc00ea-3f53-44eb-b217-6687a9e8895d",
+    "data": [
+      {
+        "text": "i want to change the timings",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1538515992
+  },
+  {
+    "id": "ca834e7d-7468-4718-8ac3-7ccf6b1d4709",
+    "data": [
+      {
+        "text": "i want to reschedule the service",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1538515992
+  },
+  {
+    "id": "bc0a9c07-b38e-402a-b41b-c8297e1786c1",
+    "data": [
+      {
+        "text": "i want to change the timings of service",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1538515992
+  },
+  {
+    "id": "d179c357-9831-49a8-8c08-e8098e02fe45",
+    "data": [
+      {
+        "text": "change the timing",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1538330039
+  },
+  {
+    "id": "f2faf291-1a49-4760-a112-6f5b0e2de15a",
+    "data": [
+      {
+        "text": "reschedule",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1538330039
+  }
+]

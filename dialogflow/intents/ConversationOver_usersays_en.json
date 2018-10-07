@@ -1,0 +1,98 @@
+[
+  {
+    "id": "0ae8de33-baad-46fc-92f6-3f0dc1468d3f",
+    "data": [
+      {
+        "text": "close the chat",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1538770687
+  },
+  {
+    "id": "53d34f06-de3d-42a4-b378-131ba90af4b3",
+    "data": [
+      {
+        "text": "close this chat",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1538770687
+  },
+  {
+    "id": "be1edc8c-02dd-42c2-b3f8-15e083d4f1f6",
+    "data": [
+      {
+        "text": "quit",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1538770687
+  },
+  {
+    "id": "8a77721c-1320-4f12-ae8e-25b2e82459d9",
+    "data": [
+      {
+        "text": "good bye",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1538770687
+  },
+  {
+    "id": "034ea98d-bad0-4366-9293-5f9c791ac1dc",
+    "data": [
+      {
+        "text": "bye",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1538770687
+  },
+  {
+    "id": "6efb6699-4189-4dde-bb4d-ef4288d16330",
+    "data": [
+      {
+        "text": "exit",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1538770687
+  },
+  {
+    "id": "821b794e-e222-40a3-8b40-267c4cf1a231",
+    "data": [
+      {
+        "text": "no thanks",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1538770687
+  },
+  {
+    "id": "4ae210c3-0664-4ea2-ac9e-17369f453193",
+    "data": [
+      {
+        "text": "No! Thanks",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1538770687
+  }
+]
