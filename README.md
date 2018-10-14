@@ -11,15 +11,13 @@ The demo video is here - https://youtu.be/7-aa2oR5tCU
 **Instructions on running it:**
 
 - Zip the contents of the "dialogflow" folder.
-
 - Open google dialogflow website and sign in .
-
 - Create a new agent and name it anything
-
 - Go to the agent settings -> Import as zip and import the zipped file.
-
+- Open the 'fulfillment' folder from github project 
+- Follow the instructions give in 'Readme.md' in that folder to apply cloud functions in the chatbot.
+- Deploy the 'inline-editor'
 - Use your phone's google assistant ( logged in with the same email which you used in dialogflow) and call "Talk to my test app".
-
 - That's it ! 
 
 
